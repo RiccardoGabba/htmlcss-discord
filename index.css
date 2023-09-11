@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+p {
+    font-size: 20px;
+}
+
+li {
+    font-size: 20px;
+}
+
+a {
+    color: white;
+    display: block;
+    padding: 6px 10px;
+    text-decoration: none;
+}
+
+.body {
+    background-color: white;
+}
+
+.debug {
+    border: 1px solid black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+header {
+    background-color: #2a5ee8;
+}
+
+#hero {
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hero .container {
+    min-height: 500px;
+
+}
+
+.d-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    list-style-type: none;
+    padding: 16px;
+}
+
+.f-center {
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.testo {
+    text-align: center;
+    color: white;
+}
+
+footer {
+    color: white;
+    background-color: #23272a;
+}
+
+.big-clelia {
+    padding: 60px;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.scarica {
+    background-color: white;
+    padding: 20px;
+    border-radius: 50px;
+    color: black;
+    margin-top: 30px;
+}
+
+.browser {
+    background-color: rgb(35, 39, 42);
+    padding: 20px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.apri {
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 30px;
+    padding: 16px;
+}
