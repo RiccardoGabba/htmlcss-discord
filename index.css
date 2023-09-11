@@ -11,6 +11,10 @@ h1 {
     font-size: 80px;
 }
 
+h3{
+    align-self: center;
+}
+
 p {
     font-size: 20px;
 }
@@ -109,4 +113,18 @@ footer {
     border-radius: 50px;
     margin-top: 30px;
     padding: 16px;
+}
+
+.scritte-foto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.sotto-testo{
+    display: flex;
+    align-self: flex-end;
 }
