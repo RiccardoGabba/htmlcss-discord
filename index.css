@@ -13,6 +13,13 @@ h1 {
 
 h3{
     align-self: center;
+    text-align: left;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+h4{
+    
 }
 
 p {
@@ -127,4 +134,12 @@ footer {
 .sotto-testo{
     display: flex;
     align-self: flex-end;
+    text-align: left;
 }
+
+.scritte-foto2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
