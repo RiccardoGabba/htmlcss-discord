@@ -147,15 +147,22 @@ footer {
 
  .adventure{
     text-align: center;
+    display: inline-block;
+
  }
 
  .windows{
-    background-color: black;
-    padding: 20px;
-    border-radius: 50px;
-    color: white;
-    margin-top: 30px;
-    max-width: 1200px;
-    text-align: center;
+    background-color: rgb(88, 101, 242);
  }
 
+ .italiano{
+    
+    height: 15px;
+    margin-right: 10px;
+ }
+
+ .siti{
+    
+    
+    
+ }
