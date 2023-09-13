@@ -10,12 +10,30 @@
 h1 {
     font-size: 80px;
 }
-
-h3{
+h2{
+    font-size: 55px;
+}
+h3 {
     align-self: center;
     text-align: left;
     font-size: 50px;
     margin-bottom: 15px;
+}
+h4{
+    font-size: 30px;
+    background-image: url(img/stars.svg);
+    
+}
+
+h5{
+    color: rgb(28, 61, 232) ;
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+
+li{
+    list-style: none;
 }
 
 p {
@@ -32,6 +50,7 @@ a {
     padding: 6px 10px;
     text-decoration: none;
 }
+
 
 .body {
     background-color: white;
@@ -101,6 +120,7 @@ footer {
     border-radius: 50px;
     color: black;
     margin-top: 30px;
+    font-size: 20px;
 }
 
 .browser {
@@ -108,6 +128,7 @@ footer {
     padding: 20px;
     border-radius: 50px;
     margin-top: 30px;
+    font-size: 20px;
 }
 
 .apri {
@@ -118,51 +139,73 @@ footer {
     padding: 16px;
 }
 
-.scritte-foto1{
+.scritte-foto1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-direction: row;
     align-items: center;
     padding: 30px 10px;
-    
+
 }
 
-.sotto-testo{
+.sotto-testo {
     display: flex;
     align-self: flex-end;
     text-align: left;
 }
 
-.scritte-foto2{
+.scritte-foto2 {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     padding: 30px 10px;
 }
- .image{
+
+.image {
     text-align: center;
     width: 50%;
- }
+}
 
- .adventure{
+.adventure {
     text-align: center;
-    display: inline-block;
+}
 
- }
-
- .windows{
+.windows {
     background-color: rgb(88, 101, 242);
- }
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50px;
+    color: white;
+    margin-top: 30px;
+        
+}
 
- .italiano{
-    
+.italiano {
     height: 15px;
     margin-right: 10px;
+}
+
+.registrati {
+    background-color: rgb(88, 101, 242);
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.siti{
+    margin-top: 25px;
+}
+
+ .colonne{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-bottom: 50px;
+
  }
 
- .siti{
-    
-    
-    
- }
+ hr {
+    border: 1;
+    width: 80%;
+    color: #FF0000;
+    }
